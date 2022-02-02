@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgba(211, 211, 211, 0.5);
   margin: 0;
   padding: 0;
 }
@@ -68,4 +68,26 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+.skiplinks ul{
+  list-style:none;
+  position:relative;
+}
+
+.skiplinks a{
+  position:absolute;
+  top:-10em;
+  text-decoration:none;
+}
+.skiplinks a:focus{
+  top:0;
+  background:navy;
+  color:antiquewhite;
+  display:block;
+  padding:10px;
+}
+
+input:focus{
+  border:2px solid black;
 }
